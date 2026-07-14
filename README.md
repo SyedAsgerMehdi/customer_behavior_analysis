@@ -98,9 +98,9 @@ Data-Analytics-Project/
 * Data Analytics Workflow
 
 * <p align="center">
-  <img src="images/customer behavior dashboard.jpg.png" alt="Dashboard Screenshot" width="600"/>
+  <img src="images/customer behavior dashboard_page-0001.jpg." alt="customer behavior dashboard_page-0001.jpg" width="600"/>
 </p>
 ## 📊 Dashboard Preview
-![Customer Behavior Dashboard](images/customer behavior dashboard.jpg)
+![Customer Behavior Dashboard](images/customer behavior dashboard_page-0001.jpg)
 
 
