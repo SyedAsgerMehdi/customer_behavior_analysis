@@ -97,10 +97,5 @@ Data-Analytics-Project/
 * Power BI Dashboard Development
 * Data Analytics Workflow
 
-* <p align="center">
-  <img src="images/customer behavior dashboard_page-0001.jpg." alt="customer behavior dashboard_page-0001.jpg" width="600"/>
-</p>
-## 📊 Dashboard Preview
-![Customer Behavior Dashboard](images/customer behavior dashboard_page-0001.jpg)
 
 
