@@ -3,11 +3,6 @@
 
 ---
 
-## ✍️ Author
-* **Syed Asger Mehdi** — [GitHub Profile](https://github.com/SyedAsgerMehdi)
-
----
-
 ## 🔗 Live Artifacts & Previews
 * **Interactive Dashboard**: [Power BI Template File](Customer_Behaviour_dashboard.pbix)
 * **Data Processing & Pipeline**: [Jupyter Notebook](Customer_Shopping_Behavior.ipynb)
@@ -49,7 +44,7 @@ Using Python and **Pandas**, I developed a robust preprocessing pipeline to tran
 1. **Handling Missing Values**: Applied median imputation grouped by product categories to handle any null values in `Review Rating` dynamically.
 2. **Schema Standardization**: Converted all column names to lowercase and replaced spaces with underscores for SQL compatibility.
 3. **Feature Engineering**:
-   - Categorized continuous `age` data into four distinct life stages using quartile binning (`pd.qcut`): `Young Adult`, `Adult`, `Middle-aged`, and `Senior`.
+   - Categorized continuous `age` data into four distinct life stages using quantile binning (`pd.qcut`): `Young Adult`, `Adult`, `Middle-aged`, and `Senior`.
    - Mapped categorical purchase frequencies (e.g., *Weekly*, *Fortnightly*, *Annually*) into numerical columns (`purchase_frequency_days`) to facilitate predictive metrics.
 4. **Redundancy Reduction**: Checked collinearity between `discount_applied` and `promo_code_used` (found to be 100% correlated) and dropped the redundant promo code column to optimize database storage.
 5. **Database Loading**: Configured a connection engine using `SQLAlchemy` and `psycopg2` to load the dataframe into a PostgreSQL table.
@@ -177,3 +172,8 @@ To reproduce this analysis locally, follow these steps:
 * **Advanced Database Querying**: CTEs, SQL Window Functions, joins, group-by aggregates.
 * **Data Visualization & UX**: Designing interactive dashboards, applying color theory, and establishing a visual hierarchy.
 * **Business Acumen**: Translating raw data metrics into strategic recommendations for retail stakeholders.
+
+---
+
+## ✍️ Author
+* **Syed Asger Mehdi** — [GitHub Profile](https://github.com/SyedAsgerMehdi)
