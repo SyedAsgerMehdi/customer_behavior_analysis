@@ -1,4 +1,4 @@
-# 🚀 Customer Behavior & Shopping Insights Analysis
+# 🚀 Customer Behavior Analysis
 > **An End-to-End Data Analytics Project: Python (ETL) ➔ PostgreSQL (SQL Analysis) ➔ Power BI (Interactive Dashboards)**
 
 ---
