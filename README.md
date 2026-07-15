@@ -47,6 +47,9 @@ The Power BI dashboard provides:
 * Interactive Filters and Slicers
 * Charts and Visualizations for better decision-making
 
+### Dashboard Preview
+![Customer Behavior Dashboard](screenshots/dashboard.png)
+
 ---
 
 ## Results
@@ -82,6 +85,8 @@ Data-Analytics-Project/
 │   └── queries.sql
 │── powerbi/
 │   └── dashboard.pbix
+│── screenshots/
+│   └── dashboard.png
 │── README.md
 ```
 
